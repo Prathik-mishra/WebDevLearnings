@@ -1,0 +1,16 @@
+.box{
+    width: 30vh;
+    height: 40vh;
+    border: 1px solid black;
+    overflow: scroll;
+    /*     overflow: auto; automatically asign scroller if any overflow occurs
+    
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    overflow: x y; x can be assign first and second is for y
+    
+    white-space: nowrap;
+    text-overflow: ellipsis; (ex: i am a boy...)
+ */
+}

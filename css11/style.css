@@ -1,0 +1,29 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height: 133px;
+    width: 80vw;
+    padding: 3px;
+    margin: 3px;
+    border: 2px solid black;
+
+}
+.box1{
+    background-color: aqua;
+    position: absolute;
+}
+.box2{
+    background-color: #000;
+    position: relative;
+    top: 34px;
+    left: 56px;
+}
+.box3{
+    background-color: blue;
+}
+.box4{
+    background-color: purple;
+}

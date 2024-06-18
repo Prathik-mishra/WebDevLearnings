@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS box model</title>
+    <style>
+        *{
+            margin_: 0;
+            padding_: 0;
+        }
+        .box{
+            background-color: aqua;
+        }
+        .box1{
+            color: white;
+            padding: 10px;
+            margin: 25px;
+            border: 2px solid blue;
+            height: 200px;
+            box-sizing: border-box;
+        }
+        .box2{
+            color: red;
+            padding: 10px;
+            margin: 35px;
+            border: 2px solid black;
+            height: 200px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <!-- in css everything is a box and in that box we have somethings like content -> padding -> border -> margin -->
+    <!-- margin collapse: (Imp)
+    It says that if two margines are overlapping than the max of two margin will be added in between both the boxes -->
+    <div class="box box1" >
+        I am a box
+    </div>
+    <div class="box box2">I am another box</div>
+</body>
+</html>

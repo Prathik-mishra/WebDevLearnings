@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3</title>
+    <style>
+        div{
+            background-color: blue;
+        }
+        /* class selector */
+        .red{
+            background-color: red;
+        }
+        /* id selector */
+        #yellow{
+            background-color: yellow;
+        }
+        /* child selector */
+        div > p{
+            color:black;
+            background-color: red;
+        }
+        /* descendent selector */
+        div p{
+            color:black;
+            background-color: red;
+        }
+        /* universal selector */
+        *{
+            margin:0;
+            padding: 0;
+        }
+        /* pseudo selector */
+        a:visited{
+            color: yellow;
+        }
+        a:link{
+            color: green;
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        I am a div
+        <p>I am a para inside div</p>
+    </div>
+    <div class="red">
+        I am class div
+    </div>
+    <div id="yellow">
+        i am id div
+    </div>
+    <a href="https://www.google.com">Go to google</a>
+    <a href="https://www.facebook.com">Go to faceBook</a>
+</body>
+</html>
