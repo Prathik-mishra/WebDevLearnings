@@ -1,0 +1,34 @@
+/* .box:first-child{
+    background-color: red;
+} */
+
+.box::first-line{
+    background-color: yellow;
+}
+
+.boxes *{
+    color: blue;
+    border: 2px solid black;
+}
+
+[data-color=primary]{
+    padding: 40px;
+}
+
+p, a, .box, [data-color="primary"]{
+    padding-top: 55px;
+}
+
+.box:nth-child(odd){
+    background-color: aqua;
+}
+
+.boxes::before{
+    content: "prathik is a good boy";
+    color: brown;
+}
+
+::selection{
+    background-color: black;
+    color: rgb(16, 119, 16);
+}

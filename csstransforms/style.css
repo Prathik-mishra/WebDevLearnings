@@ -1,0 +1,20 @@
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: beige;
+    border: 2px solid black;
+    /* transform: rotate(0.25turn);  can also be written like this turn is from 0-1 
+       transform: rotate(40deg);
+       transform: rotate(40deg);
+       transform: scale(1.5)*/
+       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100vw;
+    height: 80vh;
+    border: 2px solid purple;
+}

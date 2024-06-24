@@ -1,0 +1,37 @@
+.container{
+    border: 2px solid red;
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    /* align-items: center; if in one line use this otherwise use align-content for multiple line to avoid wrap*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.item{
+    height: 62px;
+    width: 62px;
+    border: 2px solid black;
+    /* margin: 4px; */
+    background-color: blueviolet;
+}
+
+.order-1{
+    order: 1;
+    /* more the order last it appears we can set order using this syntax */
+    /* default order is 0 */
+}
+.order-2{
+    order: 2;
+}
+.order-3{
+    order: 3;
+}
+
+.items{
+    /* flex-grow: 2; */
+    /* flex-shrink: 2; */
+    align-self: flex-end;
+}
+

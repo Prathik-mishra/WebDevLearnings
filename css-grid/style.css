@@ -1,0 +1,33 @@
+.container{
+    width: 80vw;
+    height: 100vh;
+    border: 2px solid black;
+    display: grid;
+    /* to set rows and col grid dimensions we use the below properties */
+    /* grid-template-columns: [pehela]120px [dusra]100px [t];
+    grid-template-rows: 100px 100px 100px; */
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 34px;
+    justify-items: center;
+    align-items: center;
+}
+
+.item{
+    border: 2px solid red;
+    height: 55px;
+    width: 55px;
+}
+
+.item-4{
+    /* to set a particular item(div) in a respective grid we use below properties */
+    /* grid-row: 1/2;
+    grid-column: 1/2; */
+}
+
+.item-1{
+    /* grid-row: 1/2;
+    grid-column: 1/2; */
+    /* grid-row-start: 1;
+    grid-row-end: 2; 
+    can also be written like this */
+}
